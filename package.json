@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Date range input for Vue created with Typescript",
   "author": "Max van Duin",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve src/serve-dev.ts",
     "build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
