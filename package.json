@@ -1,6 +1,6 @@
 {
   "name": "vue-date-range-select",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Date range input for Vue created with Typescript",
   "author": "Max van Duin",
   "license": "MIT",
