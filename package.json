@@ -5,6 +5,13 @@
   "author": "Max van Duin",
   "license": "MIT",
   "homepage": "https://github.com/vandune/vue-date-range-select#readme",
+  "keywords": [
+    "Vue",
+    "Typescript",
+    "Rollup",
+    "Date range",
+    "Custom CSS"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve src/serve-dev.ts",
     "build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
