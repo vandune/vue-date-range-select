@@ -2,6 +2,7 @@
 ## Vue date range select
 
 A Vue date range select component for updating Javascript Date objects. Provides great user feedback, easy customisation by overwriting the styles. (When to show / hide the calendar is up to you)
+
 Created with Typescript, Vue and uses [Rollup](https://vuejs.org/v2/cookbook/packaging-sfc-for-npm.html) to build the npm package.
 
 - [Demo](#demo)
@@ -10,8 +11,7 @@ Created with Typescript, Vue and uses [Rollup](https://vuejs.org/v2/cookbook/pac
 - [Available props](#available-props)
 - [Component functions](#component-functions)
 - [Code example](#code-example)
-
-## Demo
+- [Contributions](#contributions)
 
 ## Installation
 `npm i vue-date-range-select`
@@ -53,11 +53,11 @@ export default {
 | monthCount       | number                                             | 2                                   | Amount of months shown in select |
 | locale           | string                                             | en-EN                               | Used for setting language of months and days [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString)|
 | hideYear         | boolean                                            | false                               | Stop showing year next to month  |
-| canSelectInPast  | booleaan                                           | false                               | Disables the user to select days in the past |
+| canSelectInPast  | boolean                                            | false                               | Disables the user to select days in the past |
 | startOnSunday    | boolean                                            | false                               | Show Sundays first               |
 
+
 ## Component functions
-### Clear start and end date
 Functions inside the vue date range component to mutate the state from outside
 
 ```html
@@ -99,7 +99,7 @@ Add fields to the top of the date range select, or to the bottom
 2. `npm install`
 3. `npm run serve`
 
-# Contributions
+## Contributions
 Contributions would be very much appreciated!<br>
 Please add some tests as well 🧪
 
