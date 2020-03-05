@@ -1,9 +1,10 @@
 {
   "name": "vue-date-range-select",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Date range input for Vue created with Typescript",
   "author": "Max van Duin",
   "license": "MIT",
+  "homepage": "https://github.com/vandune/vue-date-range-select#readme",
   "scripts": {
     "serve": "vue-cli-service serve src/serve-dev.ts",
     "build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
@@ -80,6 +81,5 @@
   "engines": {
     "node": ">=8"
   },
-  "license": "MIT",
   "types": "vue-date-range-select.d.ts"
 }
