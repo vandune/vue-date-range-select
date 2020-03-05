@@ -1,3 +1,4 @@
+![Date range component interaction](./assets/date-range-interaction.gif)
 ## Vue date range select
 
 A Vue date range select component for updating Javascript Date objects. Provides great user feedback, easy customisation by overwriting the styles. (When to show / hide the calendar is up to you)
