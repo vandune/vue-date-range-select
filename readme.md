@@ -1,11 +1,10 @@
 ![Date range component interaction](./assets/date-range-interaction.gif)
 ## Vue date range select
 
-A Vue date range select component for updating Javascript Date objects. Provides great user feedback, easy customisation by overwriting the styles. (When to show / hide the calendar is up to you)
+A Vue date range select component for updating Javascript Date objects. Provides great user feedback, easy customization by overwriting the styles. (When to show / hide the calendar is up to you)
 
 Created with Typescript, Vue and uses [Rollup](https://vuejs.org/v2/cookbook/packaging-sfc-for-npm.html) to build the npm package.
-
-- [Demo](#demo)
+- [Demo](https://epic-pare-7c2793.netlify.com)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Available props](#available-props)
@@ -14,7 +13,7 @@ Created with Typescript, Vue and uses [Rollup](https://vuejs.org/v2/cookbook/pac
 - [Contributions](#contributions)
 
 ## Installation
-`npm i vue-date-range-select`
+`npm install vue-date-range-select`
 
 ## Usage
 1. Import component
@@ -24,14 +23,14 @@ import VueDateRangeSelect from 'vue-date-range-select';
 
 2. Import styles, or write your own [styles](./src/vue-date-range-select.vue) (scroll to bottom to copy the initial styling)
 ```js
-import 'vue-date-range-select/styles.css';
+import 'vue-date-range-select/dist/styles.css';
 ```
 
 3. Add component to your template
 ```html
 <template>
   <!-- ... -->
-  <vue-date-range-select v-model="{ endDate: null, startDate: null }">
+  <vue-date-range-select v-model="dateRange">
   <!-- ... -->
 </template>
 
@@ -40,7 +39,12 @@ export default {
   // ...
   components: {
     VueDateRangeSelect
-  }
+  },
+  data() {
+    return {
+      dateRange: { endDate: null, startDate: null },
+    }
+  },
   // ...
 }
 </script>

@@ -39,7 +39,7 @@ const baseConfig = {
           exclude: [
             'src/serve-dev.ts',
             'tests/**/*',
-          ]
+          ],
         }
       }),
       css({ output: 'dist/styles.css' }),
@@ -78,6 +78,7 @@ if (!argv.format || argv.format === 'es') {
       file: 'dist/vue-date-range-select.esm.js',
       format: 'esm',
       exports: 'named',
+      globals,
     },
     plugins: [
       ...baseConfig.plugins.preVue,
